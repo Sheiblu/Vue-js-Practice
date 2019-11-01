@@ -1,0 +1,14 @@
+install all package: 
+ 
+	   =>  npm i
+
+Run Api:
+
+	   =>  node index.js   / => nodemon index.js  (in nodemon in install in your device)
+
+
+Access Api:
+
+1: get data        -> http://localhost:3000/data
+2: search          -> http://localhost:3000/DataSearch/?search=Ram   (Ram use as data)
+3: get data by id  -> http://localhost:3000/DataById/?id= 5  (5 use as data)
